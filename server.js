@@ -4,7 +4,7 @@ const path = require("path");
 const app = express();
 app.use(express.json({ limit: "100kb" }));
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "Hadmin12345@@";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "Ha09876@@";
 const SB_URL = "https://kioukkhiiwojcnfntkuo.supabase.co/rest/v1";
 const SB_KEY = "sb_publishable_3qINyRxf4K2MMqRREtwtxA_hCd6GK-A";
 
