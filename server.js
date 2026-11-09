@@ -5,8 +5,8 @@ const app = express();
 app.use(express.json({ limit: "100kb" }));
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "Hadmin12345@@";
-const SB_URL = "https://hqhucwxczutpwvddtuws.supabase.co/rest/v1";
-const SB_KEY = "sb_publishable_6Rouky_x_o6YZrAeSe837w_p7_wWgQg";
+const SB_URL = "https://kioukkhiiwojcnfntkuo.supabase.co/rest/v1";
+const SB_KEY = "sb_publishable_3qINyRxf4K2MMqRREtwtxA_hCd6GK-A";
 
 const H = { "apikey": SB_KEY, "Authorization": "Bearer " + SB_KEY, "Content-Type": "application/json", "Prefer": "return=representation" };
 const Hmin = { "apikey": SB_KEY, "Authorization": "Bearer " + SB_KEY, "Content-Type": "application/json", "Prefer": "return=minimal" };
